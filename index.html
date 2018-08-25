@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Local Player</title>
+    <meta charset="UTF-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--- Signalayer player -->
+    <script type='text/javascript'>
+      window.Signalayer||function(t,e){var o={
+      url:"http://player-src/development/static/player.js",
+      key:"sLfHxDWoWAvSKtgSvyVik2198GnCfrCJSII_135HvW9",
+      async:true
+      };
+
+      window.Signalayer={cs:[],_apiKey:o.key};for(
+      var r=["identify","goal","updateUserData","start","stop","refresh","show","hide","on"],
+      i={},n=0;n<r.length;n++){var a=r[n];i[a]=function(t){return function(){var e=Array.prototype.slice.call(arguments);
+      window.Signalayer.cs.push({method:t,args:e})}}(a)}window.Signalayer.API=i;var n=t.createElement(e),s=t.getElementsByTagName(e)[0];
+      n.type="text/javascript",n.async=o.async,s.parentNode.insertBefore(n,s),n.src=o.url}(document,"script");
+    </script>
+    <!--- Signalayer player -->
+  </head>
+  <body>
+    <h2>[Local] Test player environment</h2>
+    <p>TIP:</p>
+  </body>
+
+  <script type='text/javascript'>
+    Signalayer.API.on("test_event", function(){
+      console.log('test event');
+    });
+  
+  </script>
+</html>
