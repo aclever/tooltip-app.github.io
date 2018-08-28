@@ -1,8 +1,7 @@
-/* Signalayer Player Snippet */
-
-var PLAYER_PATH = 'https://s3.amazonaws.com/signalayer-static-player/';
+var PLAYER_PATH = 'https://cdn.mdconpro.com/';
 var PROJECT_ID = '559c4f37-9575-4989-b37d-b93b5a39a985';
 
+/* Signalayer Player Snippet */
 window.Signalayer || function (t, e) {
     var o = {
         url: PLAYER_PATH + "static/player.js",
