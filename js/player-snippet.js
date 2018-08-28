@@ -1,7 +1,6 @@
 /* Signalayer Player Snippet */
 
 var PLAYER_PATH = 'https://s3.amazonaws.com/signalayer-static-player/';
-
 var PROJECT_ID = '559c4f37-9575-4989-b37d-b93b5a39a985';
 
 window.Signalayer || function (t, e) {
