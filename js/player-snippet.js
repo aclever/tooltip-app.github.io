@@ -1,5 +1,5 @@
 var PLAYER_PATH = 'https://cdn.mdconpro.com/';
-var PROJECT_ID = '2a3c15a7-2b1d-47f4-97e2-c81642371f5c';
+var PROJECT_ID = '9f4ec8ab-5295-4942-a9d7-c4e64588cd25';
 
 /* Signalayer Player Snippet */
 window.Signalayer || function (t, e) {
