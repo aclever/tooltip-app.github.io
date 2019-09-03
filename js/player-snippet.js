@@ -1,5 +1,5 @@
-var PLAYER_PATH = 'https://cdn.mdconpro.com/';
-var PROJECT_ID = '9f4ec8ab-5295-4942-a9d7-c4e64588cd25';
+var PLAYER_PATH = 'https://tooltip-cdn.mdconpro.com/';
+var PROJECT_ID = 'PASTE HERE';
 
 /* Signalayer Player Snippet */
 window.Signalayer || function (t, e) {
