@@ -1,5 +1,5 @@
 var PLAYER_PATH = 'https://tooltip-cdn.mdconpro.com/';
-var PROJECT_ID = '36175d66-8f83-4305-84ab-6a263ada9e1e';
+var PROJECT_ID = '916b734b-4eae-47e2-99c0-3aa08270bf85';
 
 /* Tooltip Player Snippet */
 window.Tooltip || function (t, e) {
